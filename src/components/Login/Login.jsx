@@ -7,7 +7,7 @@ import Loader from '../Loader/Loader';
 const clientID=import.meta.env.VITE_CLIENTID;
 const backendURL=import.meta.env.VITE_APIURL;
 
-console.log(clientID,backendURL);
+//console.log(clientID,backendURL);
 
 function Login() {
 
