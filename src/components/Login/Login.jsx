@@ -6,6 +6,8 @@ import { useNavigate } from 'react-router-dom';
 const clientID=import.meta.env.VITE_CLIENTID;
 const backendURL=import.meta.env.VITE_APIURL;
 
+console.log(clientID,backendURL);
+
 function Login() {
 
     const navigate=useNavigate()
